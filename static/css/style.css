@@ -1,0 +1,19 @@
+.col-md-5 {
+    position: relative;
+
+    height: 550px;
+    overflow: hidden;
+}
+
+.col-md-5 img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    width: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
