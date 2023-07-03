@@ -16,3 +16,9 @@
     width: 100%;
     height: auto;
 }
+
+#contact-message li{
+    list-style-type: none;
+    font-weight: 600;
+    text-align: center;
+}
