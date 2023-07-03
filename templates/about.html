@@ -32,11 +32,11 @@
                 </div>
 
             {% else %}
-                <div class="col-md-7">
+                <div class="col-md-5">
                     <img src="{{ member.image_source }}" class="featurette-image image-responsive" alt="">
                 </div>
 
-                <div class="col-md-5">
+                <div class="col-md-7">
                     <h3>{{ member.name }}</h3>
                     <p>
                         {{ member.description }}
@@ -47,7 +47,9 @@
 
         </div>
 
-        <hr class="featurette-divider">
+        {% if loop.index !=13 %}
+            <hr class="featurette-divider">
+        {% endif %}
 
     {% endfor %}
 
