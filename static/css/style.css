@@ -22,3 +22,12 @@
     font-weight: 600;
     text-align: center;
 }
+
+#welcome{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.social-links li a:hover {
+    color: rgb(28, 176, 196);
+}

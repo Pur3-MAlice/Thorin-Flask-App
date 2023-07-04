@@ -1,7 +1,60 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1>Welcome!</h1>
-    <h4>This is a fan-made website exploring Thorin Oakenshield and his company of dwarves.</h4>
-    <h4>This website is also an exploration of development frameworks such as Flask, Jinja, SCSS, JSON and more.</h4>
-    
+    <h1 id="welcome">Welcome!</h1>
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <!-- Post preview-->
+                <div class="post-preview">
+                    <h4 class="post-title">This is a fan-made website exploring Thorin Oakenshield and his company of
+                        dwarves.</h4>
+                    <p class="post-subtitle">This website is also an exploration of development frameworks such as
+                        Flask, Jinja, SCSS, JSON and more.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="svg-row d-flex justify-content-around">
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a href="https://github.com/Pur3-MAlice" target="_blank">
+                        <img src="/static/svg/jinja.svg" alt="jinja" width="50px" height="50px">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/Pur3-MAlice" target="_blank">
+                        <img src="/static/svg/programming-language-flask.svg" alt="flask" width="50px" height="50px">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/Pur3-MAlice" target="_blank">
+                        <img src="/static/svg/python.svg" alt="python" width="50px" height="50px">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/Pur3-MAlice" target="_blank">
+                        <img src="/static/svg/square-js.svg" alt="js" width="50px" height="50px">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/Pur3-MAlice" target="_blank">
+                        <img src="/static/svg/alternate-css3-logo.svg" alt="css3" width="50px" height="50px">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/Pur3-MAlice" target="_blank">
+                        <img src="/static/svg/file-json.svg" alt="json" width="50px" height="50px">
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://github.com/Pur3-MAlice" target="_blank">
+                        <img src="/static/svg/html5.svg" alt="htlm5" width="50px" height="50px">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
 {% endblock %}
