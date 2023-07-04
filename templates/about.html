@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
 
-    {{ company[1]["name"] }}
     <h2>{{ page_title }}</h2>
     <p>
         The formation of the group grew out of a meeting Gandalf had with Thorin in Bree which kindled Thorin's interest
@@ -14,7 +13,6 @@
     </p>
 
     {% for member in company %}
-
     
         <div class="row featurette">
 
@@ -34,6 +32,7 @@
                 </div>
 
             {% else %}
+            
                 <div class="col-md-5 profile-img">
                     <img src="{{ member.image_source }}" class="featurette-image image-responsive" alt="">
                 </div>
